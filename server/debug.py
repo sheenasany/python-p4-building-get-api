@@ -6,7 +6,6 @@ from models import db, User, Game, Review
 
 
 if __name__ == '__main__':
-    
-    db.init_app(app)
+# removed db.init_app(app) as it  
     with app.app_context():
         import ipdb; ipdb.set_trace()
